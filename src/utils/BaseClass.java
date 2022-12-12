@@ -13,7 +13,10 @@ public class BaseClass {
                 System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
                 driver = new ChromeDriver();
             }
-
+            case "firefox" -> {
+                System.setProperty("webdriver.gecko.driver", Constants.GECKO_DRIVER_PATH);
+                driver = new FirefoxDriver();
+            }
             default -> throw new RuntimeException("Browser is not supported");
         }
 
