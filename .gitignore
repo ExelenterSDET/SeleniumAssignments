@@ -2,9 +2,6 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-!**drivers/
-!**src/utils/
-!**configs/
 
 ### Eclipse ###
 .apt_generated
@@ -30,3 +27,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+*utils
+drivers
+configs
+
+
