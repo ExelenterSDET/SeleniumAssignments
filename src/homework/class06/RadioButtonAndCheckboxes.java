@@ -1,9 +1,6 @@
 package homework.class06;
 
-import org.testng.annotations.Test;
-import utils.BaseClass;
-
-public class RadioButtonAndCheckboxes extends BaseClass {
+public class RadioButtonAndCheckboxes {
     /**
      *  HW: Checkboxes & Radio Buttons
      *   1. Go to https://the-internet.herokuapp.com/
